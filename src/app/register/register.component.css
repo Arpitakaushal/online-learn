@@ -1,0 +1,52 @@
+/* Center the register container and set a maximum width */
+.container {
+    max-width: 400px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* Style for the form title */
+h2 {
+    color: #212529;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Input field styling */
+.form-control {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    transition: border-color 0.3s ease;
+}
+
+/* Input field focus effect */
+.form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+/* Label color */
+.form-label {
+    color: #495057;
+}
+
+/* Button styling */
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+.btn-primary:hover {
+    background-color: #218838;
+}
